@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/java8-wakeup.iml" filepath="$PROJECT_DIR$/java8-wakeup.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-common/learn-common.iml" filepath="$PROJECT_DIR$/learn-common/learn-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-threads/multi-threads.iml" filepath="$PROJECT_DIR$/multi-threads/multi-threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/surpass/surpass.iml" filepath="$PROJECT_DIR$/surpass/surpass.iml" />
     </modules>
   </component>

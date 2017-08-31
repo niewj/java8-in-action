@@ -11,6 +11,7 @@
         <module>effective8</module>
         <module>surpass</module>
         <module>learn-common</module>
+        <module>multi-threads</module>
     </modules>
     <packaging>pom</packaging>
 

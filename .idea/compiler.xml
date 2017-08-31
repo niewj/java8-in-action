@@ -19,22 +19,30 @@
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="effective8" />
         <module name="functional" />
-        <module name="lambda" />
         <module name="learn-common" />
+        <module name="multi-threads" />
         <module name="surpass" />
       </profile>
+      <profile default="false" name="Annotation profile for lambda" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="lambda" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="effective8" target="1.5" />
       <module name="functional" target="1.5" />
       <module name="java8-wakeup" target="1.5" />
-      <module name="lambda" target="1.5" />
+      <module name="lambda" target="1.8" />
       <module name="learn-common" target="1.5" />
+      <module name="multi-threads" target="1.5" />
       <module name="surpass" target="1.5" />
     </bytecodeTargetLevel>
   </component>

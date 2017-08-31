@@ -48,11 +48,15 @@ public class FirstDemo {
         list.add(new User(21, "yanxin"));
 
 //        list.sort(comparing(User::getAge)); // TODO
+//        Collections.sort(list, (u1, u2) -> u1.getAge().compareTo(u2.getAge()));
         displayAll(list); // just show
     }
 
     public static void main(String[] args) {
+//        Iterable
         traditionalSortList();
+        System.out.println("+================================+");
+        jdk8SortList();
 
     }
 
