@@ -6,12 +6,12 @@
     <artifactId>java8-wakeup</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>lambda</module>
-        <module>functional</module>
-        <module>effective8</module>
-        <module>surpass</module>
-        <module>learn-common</module>
-        <module>multi-threads</module>
+        <module>part00-common</module>
+        <module>part01-lambda</module>
+        <module>part02-functional</module>
+        <module>part03-effective8</module>
+        <module>part04-surpass</module>
+        <module>ext01-multithreads</module>
     </modules>
     <packaging>pom</packaging>
 

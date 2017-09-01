@@ -8,10 +8,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.niewj.basic</groupId>
-    <artifactId>learn-common</artifactId>
+    <artifactId>part00-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>learn-common</name>
+    <name>part00-common</name>
     <url>http://maven.apache.org</url>
 
     <properties>

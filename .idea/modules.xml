@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/effective8/effective8.iml" filepath="$PROJECT_DIR$/effective8/effective8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/functional/functional.iml" filepath="$PROJECT_DIR$/functional/functional.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8-wakeup.iml" filepath="$PROJECT_DIR$/java8-wakeup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/learn-common/learn-common.iml" filepath="$PROJECT_DIR$/learn-common/learn-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multi-threads/multi-threads.iml" filepath="$PROJECT_DIR$/multi-threads/multi-threads.iml" />
-      <module fileurl="file://$PROJECT_DIR$/surpass/surpass.iml" filepath="$PROJECT_DIR$/surpass/surpass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part00-common/part00-common.iml" filepath="$PROJECT_DIR$/part00-common/part00-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part02-functional/part02-functional.iml" filepath="$PROJECT_DIR$/part02-functional/part02-functional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part03-effective8/part03-effective8.iml" filepath="$PROJECT_DIR$/part03-effective8/part03-effective8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part04-surpass/part04-surpass.iml" filepath="$PROJECT_DIR$/part04-surpass/part04-surpass.iml" />
     </modules>
   </component>
 </project>

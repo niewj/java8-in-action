@@ -8,10 +8,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.niewj.basic</groupId>
-    <artifactId>surpass</artifactId>
+    <artifactId>part02-functional</artifactId>
     <packaging>jar</packaging>
 
-    <name>surpass</name>
+    <name>part02-functional</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,6 +19,10 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.niewj.basic</groupId>
+            <artifactId>part00-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

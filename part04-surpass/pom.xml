@@ -8,23 +8,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.niewj.basic</groupId>
-    <artifactId>lambda</artifactId>
+    <artifactId>part04-surpass</artifactId>
     <packaging>jar</packaging>
 
-    <name>lambda</name>
+    <name>part04-surpass</name>
     <url>http://maven.apache.org</url>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.niewj.basic</groupId>
-            <artifactId>learn-common</artifactId>
+            <artifactId>part00-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
