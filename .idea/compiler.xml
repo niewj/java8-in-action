@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="effective8" />
         <module name="ext01-multithreads" />
+        <module name="ext02-gui" />
         <module name="functional" />
         <module name="learn-common" />
         <module name="multi-threads" />
@@ -56,20 +57,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="effective8" target="1.5" />
-      <module name="ext01-multithreads" target="1.5" />
-      <module name="functional" target="1.5" />
-      <module name="java8-wakeup" target="1.5" />
-      <module name="lambda" target="1.8" />
-      <module name="learn-common" target="1.5" />
-      <module name="multi-threads" target="1.5" />
-      <module name="part0-common" target="1.5" />
-      <module name="part00-common" target="1.5" />
+      <module name="ext01-multithreads" target="1.8" />
+      <module name="ext02-gui" target="1.8" />
+      <module name="java8-wakeup" target="1.8" />
+      <module name="part00-common" target="1.8" />
       <module name="part01-lambda" target="1.8" />
-      <module name="part02-functional" target="1.5" />
-      <module name="part03-effective8" target="1.5" />
-      <module name="part04-surpass" target="1.5" />
-      <module name="surpass" target="1.5" />
+      <module name="part02-functional" target="1.8" />
+      <module name="part03-effective8" target="1.8" />
+      <module name="part04-surpass" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
