@@ -5,43 +5,66 @@ import java.util.function.*;
 
 /**
  * lambda
+ *
+ * @see Consumer 消费型： -- 提供1/2个参数供消费，且不需要返回;
+ * @see Supplier 供给型： -- 工厂方法, 获取返回值;
+ * @see Function 函数型： -- 参数T, 返回R;
+ * @see Predicate 断言型: -- 表示一个参数的boolean值；
+ * <p>
  * Created by weijun.nie on 2017/10/25.
  */
 public class LambdaTest {
 
+    /***
+     * 四大函数式接口
+     */
     public static void main(String[] args) {
-//        int sum = (x, y) -> x + y;
-        // 1. 消费型接口示例
-        donation(1000, money -> System.out.println("好心的麦乐迪为Blade捐赠了" + money + "元"));
+        // 1. 消费型：Consumer -- 提供1/2个参数供消费，且不需要返回;
+        share(30, bookCount -> System.out.println("共享了" + bookCount + "本图书"));
+        share(30, "图书", (bookCount, name) -> System.out.println("共享了" + name + bookCount + "本"));
 
-        // 2.供给型接口示例
-        List<Integer> list = supply(10, () -> (int) (Math.random() * 100));
-        list.forEach(System.out::println);
+        Consumer<List<Integer>> consumer = (x) -> System.out.println(x.size());
+        consumer.accept(Arrays.asList(3,34,54));
 
-        // 3.函数型接口示例- 转换字符串为Integer
-        Integer value = convert("28", x -> Integer.parseInt(x));
+        // 2.供给型：Supplier -- 工厂方法, 获取返回值;
+        Supplier strUtil = () -> new String("Supplier#get");
+        System.out.println(strUtil.get());
+        strUtil = String::new;
+        System.out.println(strUtil.get());
 
-        // 4. 断言型接口示例 - 筛选出只有2个字的水果
-        List<String> fruit = Arrays.asList("香蕉", "哈密瓜", "榴莲", "火龙果", "水蜜桃");
-        List<String> newFruit = filter(fruit, (f) -> f.length() == 2);
-        System.out.println(newFruit);
-
-
-        // test FunctionalInterface
-        new FunctionalInterfaceSummary(){
-            @Override
-            public int doSum(int x, int y) {
-                return x+y;
-            }
-        };
-
-        Runnable r = () -> System.out.println("do something.");
-        FunctionalInterfaceSummary fis = (x, y) -> x+y;
+//        List<Integer> list = supply(10, () -> 20);
+//        list.forEach(System.out::println);
+//
+//
+//        // 3.函数型：Function<T, R> -- 参数T, 返回R;
+//        Integer value = convert("28", x -> Integer.parseInt(x));
+//
+//        // 4. 断言型: Predicate -- 筛选出只有2个字的水果
+//        List<String> fruit = Arrays.asList("香蕉", "哈密瓜", "榴莲", "火龙果", "水蜜桃");
+//        List<String> newFruit = filter(fruit, (f) -> f.length() == 2);
+//        System.out.println(newFruit);
+//
+//
+//        // test FunctionalInterface
+//        new FunctionalInterfaceSummary() {
+//            @Override
+//            public int doSum(int x, int y) {
+//                return x + y;
+//            }
+//        };
+//
+//        Runnable r = () -> System.out.println("do something.");
+//        FunctionalInterfaceSummary fis = (x, y) -> x + y;
     }
 
-    // 1. 消费型接口示例
-    public static void donation(Integer money, Consumer<Integer> consumer) {
-        consumer.accept(money);
+    // 1-1. 消费型接口示例
+    public static void share(Integer count, Consumer<Integer> consumer) {
+        consumer.accept(count);
+    }
+
+    // 1-2. 消费型接口示例2
+    public static void share(Integer count, String name, BiConsumer<Integer, String> consumer) {
+        consumer.accept(count, name);
     }
 
     // 2.供给型接口示例
@@ -71,12 +94,10 @@ public class LambdaTest {
     /**
      * @see List#sort(Comparator)
      * @see Iterable#forEach(Consumer)
-     *
      * @see Map#forEach(BiConsumer)
      * @see Map#replace(Object, Object)
      * @see Map#replaceAll(BiFunction)
      * @see Map#remove(Object, Object)
-     *
      * @see Collection#stream()
      */
     public static void testDefaultMethod() {
