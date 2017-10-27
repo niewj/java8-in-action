@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea/
+*.iml
 /part00-common/target/
 /part01-lambda/target/
 /part02-functional/target/
