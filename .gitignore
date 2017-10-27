@@ -1,3 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea/
-!/.idea/
+/part00-common/target/
+/part01-lambda/target/
+/part02-functional/target/
+/part03-effective8/target/
+/part04-surpass/target/
