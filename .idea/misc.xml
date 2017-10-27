@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ext02-gui/pom.xml" />
       </list>
     </option>
   </component>

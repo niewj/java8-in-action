@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ext01-multithreads/ext01-multithreads.iml" filepath="$PROJECT_DIR$/ext01-multithreads/ext01-multithreads.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext02-gui/ext02-gui.iml" filepath="$PROJECT_DIR$/ext02-gui/ext02-gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8-wakeup.iml" filepath="$PROJECT_DIR$/java8-wakeup.iml" />
       <module fileurl="file://$PROJECT_DIR$/part00-common/part00-common.iml" filepath="$PROJECT_DIR$/part00-common/part00-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/part01-lambda/part01-lambda.iml" filepath="$PROJECT_DIR$/part01-lambda/part01-lambda.iml" />

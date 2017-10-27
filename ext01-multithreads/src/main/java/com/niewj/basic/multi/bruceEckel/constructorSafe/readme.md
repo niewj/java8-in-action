@@ -1,2 +1,0 @@
-#### BruceEckel blog
-

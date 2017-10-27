@@ -11,7 +11,6 @@
         <module>part02-functional</module>
         <module>part03-effective8</module>
         <module>part04-surpass</module>
-        <module>ext01-multithreads</module>
     </modules>
     <packaging>pom</packaging>
 

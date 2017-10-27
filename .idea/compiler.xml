@@ -22,55 +22,20 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="effective8" />
-        <module name="ext02-gui" />
-        <module name="functional" />
-        <module name="learn-common" />
-        <module name="multi-threads" />
         <module name="part00-common" />
+        <module name="part01-lambda" />
         <module name="part02-functional" />
         <module name="part03-effective8" />
         <module name="part04-surpass" />
-        <module name="surpass" />
-      </profile>
-      <profile default="false" name="Annotation profile for lambda" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="lambda" />
-      </profile>
-      <profile default="false" name="Annotation profile for part01-lambda" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="part01-lambda" />
-      </profile>
-      <profile default="false" name="Annotation profile for part0-common" enabled="true">
-        <sourceOutputDir name="../learn-common/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="..\learn-common\target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="part0-common" />
-      </profile>
-      <profile default="false" name="Annotation profile for ext01-multithreads" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="ext01-multithreads" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="ext01-multithreads" target="1.8" />
-      <module name="ext02-gui" target="1.5" />
-      <module name="java8-wakeup" target="1.5" />
-      <module name="part00-common" target="1.5" />
+      <module name="java8-wakeup" target="1.8" />
+      <module name="part00-common" target="1.8" />
       <module name="part01-lambda" target="1.8" />
-      <module name="part02-functional" target="1.5" />
-      <module name="part03-effective8" target="1.5" />
-      <module name="part04-surpass" target="1.5" />
+      <module name="part02-functional" target="1.8" />
+      <module name="part03-effective8" target="1.8" />
+      <module name="part04-surpass" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
