@@ -167,7 +167,7 @@ stream接口的实现类
 `java.util.stream.AbstractPipeline`
 `java.util.stream.ReferencePipeline`
 属性: sourceStage --> ReferencePipeline$Head
-![image-20200714123259704](C:\Users\weiju\AppData\Roaming\Typora\typora-user-images\image-20200714123259704.png)
+![Stream流继承关系](https://image-static.segmentfault.com/427/965/4279653472-5f0d44f5ccc7b)
 #### (4). 无状态操作运行机制
 完全链式调用: s1.a操作完->s1.b
 #### (5). 有状态操作运行机制
